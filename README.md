@@ -3,6 +3,10 @@
 
 _Based on [airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base)_
 
+[![Dependency Status](https://david-dm.org/superReal/eslint-config-superreal.svg)](https://david-dm.org/superReal/eslint-config-superreal)
+[![Build Status](https://travis-ci.org/superReal/eslint-config-superreal.svg?branch=master)](https://travis-ci.org/superReal/eslint-config-superreal)
+[![Known Vulnerabilities](https://snyk.io/test/github/superReal/eslint-config-superreal/badge.svg)](https://snyk.io/test/github/superReal/eslint-config-superreal)
+
 ## Installation
     
 ```bash
