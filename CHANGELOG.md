@@ -1,6 +1,6 @@
 # ESLint Config superReal Changelog
 
-## 3.0.0 (01/08/17)
+## 3.0.0 (23/01/19)
 
 ### Major
 
