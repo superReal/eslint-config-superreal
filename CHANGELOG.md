@@ -1,5 +1,23 @@
 # ESLint Config superReal Changelog
 
+## 3.0.0 (01/08/17)
+
+### Major
+
+- Update `eslint` dev dependency `^4.3.0` → `^5.12.1`
+- Update `eslint` peer dependency `>= 4` → `>= 5`
+- Update `node` to `8.10.0`
+
+
+### Minor
+
+- Update `eslint-plugin-import` `^2.7.0` → `^2.14.0`
+- Update `eslint-config-airbnb-base` `^11.3.1` → `^13.1.0`
+- Remove `.codeclimate.yml` file
+- Remove `precommit.sh` file
+
+
+
 ## 2.0.0 (01/08/17)
 
 ### Major
