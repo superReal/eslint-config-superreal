@@ -35,6 +35,6 @@
         "eslint-plugin-import": ">= 2"
     },
     "engines": {
-      "node": ">= 8.10.0"
+        "node": ">= 8.10.0"
     }
 }
