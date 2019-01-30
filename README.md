@@ -1,5 +1,5 @@
 # ESLint Config superReal
-> ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs) for superReal 
+> ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs) for superReal
 
 _Based on [airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base)_
 
@@ -13,9 +13,13 @@ _Based on [airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base)
 **Note that the README on the `master` branch might not match that of the [latest stable release](https://github.com/superReal/eslint-config-superreal/releases/latest)!**
 
 ## Installation
-    
+
 ```bash
-$ npm install --save-dev eslint eslint-plugin-import eslint-config-superreal
+npm install --save-dev eslint eslint-plugin-import eslint-config-superreal
+```
+or
+```bash
+yarn add --dev eslint eslint-plugin-import eslint-config-superreal
 ```
 
 ## Usage
