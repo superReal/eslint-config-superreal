@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-superreal",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "description": "ESLint shareable config for superReal",
     "files": [
         "index.js"
@@ -10,10 +10,8 @@
         "extends": "./index.js"
     },
     "scripts": {
-        "lint": "./pre-commit.sh && exit 0",
         "test": "eslint ./test/scripts/test.js"
     },
-    "precommit": "lint",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/superReal/eslint-config-superreal.git"
@@ -26,15 +24,17 @@
     "author": "superReal GmbH",
     "license": "MIT",
     "devDependencies": {
-        "eslint": "^4.3.0",
-        "eslint-plugin-import": "^2.7.0",
-        "pre-commit": "^1.2.2"
+        "eslint": "^5.12.1",
+        "eslint-plugin-import": "^2.14.0"
     },
     "dependencies": {
-        "eslint-config-airbnb-base": "^11.3.1"
+        "eslint-config-airbnb-base": "^13.1.0"
     },
     "peerDependencies": {
-        "eslint": ">= 4",
+        "eslint": ">= 5",
         "eslint-plugin-import": ">= 2"
+    },
+    "engines": {
+      "node": ">= 8.10.0"
     }
 }
